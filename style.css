@@ -1,0 +1,291 @@
+.current{
+    background-color: rgb(63, 62, 62);
+}
+p{
+    line-height: 1.5em;
+}
+/*black head section*/
+
+
+#allhead .container h1{
+    display: inline-block;
+    padding: 10px;
+    color: white;
+}
+#linktext{
+    padding-top: 17px;
+    float: right;
+    list-style: none;
+}
+#linktext li{
+    display: inline-block;
+}
+#linktext li a{
+    margin-left: -5px;
+    padding: 30px 20px;
+    text-decoration: none;
+    color: white;
+}
+#linktext li a:hover{
+    background-color: rgb(63, 62, 62);
+    color: burlywood;
+}
+
+.container{
+    overflow: hidden;
+    max-width: 1100px;
+    padding: 0 30px;
+    margin: auto;
+}
+
+#allhead{
+    background-color: rgb(50, 52, 54);
+    float: none;
+}
+
+/*welcome part*/
+#welcomepage{
+    background-image: url(./img/showcase.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+#welcomepage .container{
+    padding-top: 170px;
+    color: white;
+    display: block;
+    text-align: center;
+}
+#welcomepage .container h1{
+    font-size: 70px;
+    padding-bottom: 20px;
+}
+#welcomepage .container p{
+    padding: 30px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 15px;
+    margin-bottom: 150px;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(50, 52, 54);
+}
+.btn:hover{
+    background-color: burlywood;
+    color: black;
+}
+.btn1{
+    display: inline-block;
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+}
+
+/*first middle*/
+
+#firstmiddle{
+    height: 400px;
+}
+#homeimg{
+    background-image: url(./img/photo-1.jpg);
+    float: left;
+    width: 50%;
+    min-height: 100%;
+    
+}
+
+#textmiddle{
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    background-color: rgb(50, 52, 54);
+    color: white;
+}
+#textmiddle h1{
+    padding: 80px 10px 0px 10px;
+}
+#textmiddle p, a{
+    padding: 30px;
+}
+/*features*/
+#features{
+    overflow: hidden;
+    height: 100%;
+}
+.box{
+    float: none;
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    padding: 2rem;
+}
+.box2{
+    background-color: burlywood;
+}
+.box i{
+    padding: 1rem;
+}
+.box p{
+    padding: 2rem 1rem 1rem 1rem;
+}
+/* footer*/
+#footer{
+    overflow: hidden;
+    background-color: rgb(58, 67, 77);
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+
+/* About Page */
+#aboutHotel{
+    height: 100%;
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+.aboutText{
+    display:block;
+    width: 60%;
+    float: left;
+}
+#aboutHotel .container img{
+    float: right;
+    width: 40%;
+    border-radius: 50%;
+    float: right;
+    padding: 15px;
+}
+.aboutText h1{
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.aboutText p{
+    text-align: center;
+    padding:10px;
+}
+
+
+/*comments*/
+#comments{
+    background-image: url(./img/test-bg.jpg);
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#comments .container h1{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.firstperson{
+    margin: 15px;
+    height: 130px;
+    background-color: wheat;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+.firstperson img{
+    width: 130px;
+    border-radius: 50%;
+    float: left;
+    padding: 10px;
+}
+.firstperson p{
+    padding: 20px 10px 5px 10px;
+    
+}
+
+.secondperson{
+    margin: 15px;
+    height: 130px;
+    background-color: wheat;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+.secondperson img{
+    width: 130px;
+    border-radius: 50%;
+    float: left;
+    padding: 10px;
+}
+.secondperson p{
+    padding: 20px 10px 5px 10px;  
+}
+
+
+
+
+/*contact page*/
+#contact .container h1{
+    font-size: 40px;
+    padding: 10px;
+}
+#contact .container p{
+    padding: 10px;
+}
+#contact .container div{
+    padding: 10px 10px 0px 10px;
+}
+.form input{
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.btn2{
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 16px;
+    background-color: rgb(50, 52, 54);
+    color: white;
+    border: none;
+}
+.btn2:hover{
+    background-color: burlywood;
+    color: black;
+}
+textarea{
+    width: 70%;
+    height: 150px;
+}
+
+/*contact page feature*/
+
+/*features*/
+#contactfeatures{
+    margin-top: 5px;
+    overflow: hidden;
+    height: 100%;
+    background-color: rgb(70, 66, 66);
+}
+.cbox{
+    float: none;
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    padding: 2rem;
+}
+
+.cbox i{
+    padding: 1rem;
+    color: white;
+}
+.cbox p{
+    color: white;
+
+    padding: 2rem 1rem 1rem 1rem;
+}
+.cbox h1{
+    color: white;
+}
